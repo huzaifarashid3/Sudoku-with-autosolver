@@ -169,7 +169,7 @@ public:
 		}
 
 
-		if (selected == olc::vi2d(2* width / 3, height / 2) && GetMouse(0).bPressed)
+		if (selected == olc::vi2d((2 * width) / 3, height / 2) && GetMouse(0).bPressed)
 		{
 			N = 16;
 			SRN = 4;
@@ -257,7 +257,7 @@ public:
 
 
 
-		for (int k = 1; k <= 9; k++)
+		for (int k = 1; k <= N; k++)
 		{
 			arr[i][j] = k;
 
